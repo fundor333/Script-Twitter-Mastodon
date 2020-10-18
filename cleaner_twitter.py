@@ -11,8 +11,8 @@ API_KEY_SECRET = os.getenv("API_KEY_SECRET")
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
 
-AGE_OF_TWEET = os.getenv("AGE_OF_TWEET")
-AGE_OF_FUN_TWEET = os.getenv("AGE_OF_FUN_TWEET")
+AGE_OF_TWEET = int(os.getenv("AGE_OF_TWEET"))
+AGE_OF_FUN_TWEET = int(os.getenv("AGE_OF_FUN_TWEET"))
 
 
 def delete_it(api, status):
